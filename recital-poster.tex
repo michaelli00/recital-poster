@@ -1,47 +1,54 @@
-\documentclass[dvipsnames]{article}
+\documentclass[dvipsnames]{memoir}
 \usepackage[default]{sourcecodepro}
-\usepackage[left=0.5in, top=0.75in,bottom=0.75in, right=0.5in]{geometry}
+\usepackage[left=0.75in, top=0.65in,bottom=0.4in, right=0.75in]{geometry}
 \usepackage{hyperref}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{wasysym}
 \usepackage{xcolor}
-\usepackage[clean]{svg}
 \graphicspath{ {./assets/} }
 \definecolor{brown}{HTML}{964B00}
+\newcommand\YUGE{\fontsize{48}{55}\selectfont}
 \definecolor{periwinkle}{rgb}{0.8, 0.8, 1.0}
 \usepackage[none]{hyphenat}
+\pagecolor{white}
 \pagenumbering{gobble}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{tikz}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codecyan}{rgb}{0, 255, 255}
+\definecolor{backcolour}{rgb}{0, 0, 0}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{white},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{red},
+    stringstyle=\color{blue},
+    numbers=left,
+    numberstyle=\color{gray},
+    basicstyle=\ttfamily\huge\color{black},
+    keepspaces=true,
+    breakatwhitespace=false,
+    showstringspaces=false,
+    numbersep=20pt,
+}
+
+\lstset{style=mystyle}
+
 \date{}
-\title{Michael Li's Senior Cello Recital}
 \begin{document}
-\pagecolor{periwinkle}
-  \title{
-    \begin{Huge}
-  \textbf{Michael Li's Senior \textcolor{brown}{Cello} Recital} \\ ~ \\ ~ \\
-  Works by Walton,
+\begin{center}
+\YUGE{\textbf{\textcolor{black}{Michael Li Senior Cello Recital}}} \\~
+\end{center}
 
-  Beethoven, and Schubert \\ ~ \\ ~ \\
-  \end{Huge}
-
-
-   \hline \\ ~ \\ ~ \\ ~ \\
-
-   Sunday, May 1, 2022 $\, \, \mid \, \,$ 8PM $\, \,\mid \, \,$ Ulrich Recital Hall \\ ~ \\ ~ \\
-
-  Michael Li - \textcolor{brown}{Cello} \\
-
-  Sepehr Davallou - Piano \\
-
-  Jessica McKee - Piano \\ ~ \\ ~ \\
-
-  Scan the QR Code Below for the Livestream $\smiley{}$
-
-  \begin{center}
-  \includegraphics[scale=0.6]{qr}
-  \end{center}
- }
-  \maketitle
-
+\begin{lstinputlisting}[language=Python]{script.py}
+\end{lstinputlisting}
+\begin{tikzpicture}[remember picture,overlay]
+    \node[xshift=-2.8cm,yshift=2.8cm] at (current page.south east){%
+    \includegraphics[scale=0.45]{qr.png}};
+\end{tikzpicture}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2021.9.30)  24 APR 2022 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2021.9.30)  25 APR 2022 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -872,17 +872,26 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 <logo.png, id=7, 155.58125pt x 160.6pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 30.
+Package pdftex.def Info: logo.png  used on input line 31.
 (pdftex.def)             Requested size: 155.58086pt x 160.5996pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
- (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <48> not available
+(Font)              size <24.88> substituted on input line 31.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <48> not available
+(Font)              size <24.88> substituted on input line 31.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+(/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
  (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 30.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 31.
  (/usr/local/Cellar/texlive/58837/share/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
@@ -890,67 +899,71 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
 
-./program.tex:48: LaTeX Error: There's no line here to end.
+./program.tex:49: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48     \\ ~
+l.49     \\ ~
               \\~
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 
-./program.tex:54: LaTeX Error: There's no line here to end.
+./program.tex:55: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54     \\ ~
+l.55     \\ ~
               \\ ~
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 [1
 
 {/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>] (./program.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 23.12pt have occurred.
+
 Package rerunfilecheck Info: File `program.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24896 strings out of 478994
- 434013 string characters out of 5851139
+ 24898 strings out of 478994
+ 434042 string characters out of 5851139
  745100 words of memory out of 5000000
- 41993 multiletter control sequences out of 15000+600000
+ 41995 multiletter control sequences out of 15000+600000
  414708 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,11n,88p,409b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on program.pdf (1 page, 75500 bytes).
+Output written on program.pdf (1 page, 75787 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream

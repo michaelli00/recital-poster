@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1650850487 "program.tex" "program.pdf" "program" 1650850487
+["pdflatex"] 1650914440 "program.tex" "program.pdf" "program" 1650914440
   "/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/map/fontname/texfonts.map" 1618176823 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1618176823 5169161 faec376d6e4a0f9287e20add9eecc042 ""
   "/usr/local/Cellar/texlive/58837/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1618176823 1004 54797486969f23fa377b128694d548df ""
@@ -164,11 +164,11 @@
   "/usr/local/Cellar/texlive/58837/share/texmf-dist/web2c/texmf.cnf" 1643345887 39975 4b05abf73e01b5eea84984a594557aa7 ""
   "/usr/local/Cellar/texlive/58837/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1618176823 2724860 d5a17d04855a23ff3eceda7776609d4f ""
   "logo.png" 1650830046 57995 50bd9d1f929b3e7bcd74f38b4cad9a65 ""
-  "program.aux" 1650832563 781 1509751c2454ee84ef0185ea77f59b33 "pdflatex"
-  "program.out" 1650832563 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "program.tex" 1650850486 1639 93e43c2354c300b4e590817af6c4ff9e ""
+  "program.aux" 1650914430 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
+  "program.out" 1650914430 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "program.tex" 1650914440 1656 0871c18111ab28c191a406075e452bd6 ""
   (generated)
   "program.out"
-  "program.aux"
   "program.pdf"
   "program.log"
+  "program.aux"
